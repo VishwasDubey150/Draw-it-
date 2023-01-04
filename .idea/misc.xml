@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Drawit/app/src/main/res/drawable/drawing_bg.xml" value="0.1984375" />
+        <entry key="..\:/Drawit/app/src/main/res/drawable/large.xml" value="0.12129629629629629" />
+        <entry key="..\:/Drawit/app/src/main/res/drawable/medium.xml" value="0.12129629629629629" />
+        <entry key="..\:/Drawit/app/src/main/res/drawable/size_button.xml" value="0.11851851851851852" />
+        <entry key="..\:/Drawit/app/src/main/res/drawable/small.xml" value="0.1" />
         <entry key="..\:/Drawit/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Drawit/app/src/main/res/layout/activity_splash.xml" value="0.16822916666666668" />
+        <entry key="..\:/Drawit/app/src/main/res/layout/brushsize.xml" value="0.1" />
         <entry key="..\:/Drawit/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1984375" />
       </map>
     </option>
