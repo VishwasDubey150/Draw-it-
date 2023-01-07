@@ -14,8 +14,6 @@ class DrawingView(context: Context,attrs:AttributeSet): View(context,attrs) {
     private var mBrushSize: Float = 0.toFloat() // A variable for stroke/brush size to draw on the canvas.
     private var color = Color.BLACK // A variable to hold a color of the stroke.
     private var canvas: Canvas? = null
-
-
     private val mPaths = ArrayList<CustomPath>() // ArrayList for Paths
     private val mUndoPaths = ArrayList<CustomPath>() // ArrayList for Paths
 

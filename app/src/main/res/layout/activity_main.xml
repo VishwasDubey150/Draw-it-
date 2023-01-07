@@ -5,39 +5,70 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#F6D3EA">
+    android:background="#D7D7D7">
 
     <com.example.drawit.DrawingView
         android:id="@+id/drawingview"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="360dp"
+        android:layout_height="622dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/drawing_bg"
+        android:elevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-       android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="70dp"
-        android:background="@drawable/drawing_bg">
+        app:layout_constraintVertical_bias="0.146">
+
     </com.example.drawit.DrawingView>
 
-    <Button
-        android:id="@+id/undo"
-        android:layout_width="70dp"
-        android:layout_height="53dp"
-        android:background="@drawable/size_button"
-        android:backgroundTint="@color/white"
-        app:backgroundTint="#FFFFFF"
+    <ImageButton
+        android:id="@+id/brush"
+        android:layout_width="50dp"
+        android:layout_height="58dp"
+        android:onClick="brushsizing"
+        android:padding="20dp"
+        android:src="@drawable/brush"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.989"
-        android:textSize="30dp"
-        android:text="U"
-        android:textColor="@color/black">
-    </Button>
+        app:layout_constraintVertical_bias="0.953">
+    </ImageButton>
+
+    <ImageButton
+
+        android:id="@+id/undo"
+        android:layout_width="50dp"
+        android:layout_height="58dp"
+        android:padding="10dp"
+        android:src="@drawable/eraser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953">
+    </ImageButton>
+
+    <ImageButton
+        android:id="@+id/galary"
+        android:layout_width="50dp"
+        android:layout_height="58dp"
+        android:padding="10dp"
+        android:src="@drawable/galary"
+        android:onClick="galary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953">
+    </ImageButton>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
